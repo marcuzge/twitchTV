@@ -1,4 +1,7 @@
 # twitchTV
+
+You can find it here: https://marcuzge.github.io/twitchTV/
+
 This is the twitchTV JSON API web app. 
 -User can click the status output and be sent directly Twitch.tv channel.
 -If a Twitch user is currently streaming, User can see additional details about what they are streaming.
