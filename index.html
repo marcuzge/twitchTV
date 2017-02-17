@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Challenge 6 - Use the Twitchtv JSON API - FreeCodeCamp</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <section class="container-fluid">
+    <aside class="card">
+        <h3 class="card-header text-center">Twitch JSON API</h3>
+        <div class="list-group list-group-flush">
+            <a id="display_all" class="list-group-item active" href="javascript:void(0)">All</a>
+            <a id="display_online" class="list-group-item" href="javascript:void(0)">Online</a>
+            <a id="display_offline" class="list-group-item" href="javascript:void(0)">Offline</a>
+        </div>
+        <input type="search" class="form-control" placeholder="Find a streamer." id="search">
+    </aside>
+    <ul id="display_results" class="list-unstyled">
+    </ul>
+</section>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

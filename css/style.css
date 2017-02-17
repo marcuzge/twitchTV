@@ -1,0 +1,27 @@
+body {
+
+  background: url('../image/37.jpg') fixed;
+  
+
+}
+
+.container-fluid {
+  max-width: 45em;
+}
+
+.media {
+  padding: 1em;
+  border-bottom: 1px solid rgba(25, 25, 25, 0.25);
+}
+
+.islive {
+  background: rgba(159, 242, 162, 0.25);
+}
+
+.closed {
+  background: rgba(255, 81, 81, 0.25);
+}
+
+.btn {
+  font-size: 85%;
+}
